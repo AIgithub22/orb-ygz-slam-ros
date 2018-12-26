@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast
+CMAKE_SOURCE_DIR = /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build
+CMAKE_BINARY_DIR = /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fast.dir/depend.make
@@ -62,16 +62,16 @@ include CMakeFiles/fast.dir/flags.make
 
 CMakeFiles/fast.dir/src/fast_10.cpp.o: CMakeFiles/fast.dir/flags.make
 CMakeFiles/fast.dir/src/fast_10.cpp.o: ../src/fast_10.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fast.dir/src/fast_10.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/fast_10.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fast.dir/src/fast_10.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/fast_10.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10.cpp
 
 CMakeFiles/fast.dir/src/fast_10.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fast.dir/src/fast_10.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10.cpp > CMakeFiles/fast.dir/src/fast_10.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10.cpp > CMakeFiles/fast.dir/src/fast_10.cpp.i
 
 CMakeFiles/fast.dir/src/fast_10.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fast.dir/src/fast_10.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10.cpp -o CMakeFiles/fast.dir/src/fast_10.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10.cpp -o CMakeFiles/fast.dir/src/fast_10.cpp.s
 
 CMakeFiles/fast.dir/src/fast_10.cpp.o.requires:
 
@@ -86,16 +86,16 @@ CMakeFiles/fast.dir/src/fast_10.cpp.o.provides.build: CMakeFiles/fast.dir/src/fa
 
 CMakeFiles/fast.dir/src/fast_10_score.cpp.o: CMakeFiles/fast.dir/flags.make
 CMakeFiles/fast.dir/src/fast_10_score.cpp.o: ../src/fast_10_score.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fast.dir/src/fast_10_score.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/fast_10_score.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10_score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fast.dir/src/fast_10_score.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/fast_10_score.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10_score.cpp
 
 CMakeFiles/fast.dir/src/fast_10_score.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fast.dir/src/fast_10_score.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10_score.cpp > CMakeFiles/fast.dir/src/fast_10_score.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10_score.cpp > CMakeFiles/fast.dir/src/fast_10_score.cpp.i
 
 CMakeFiles/fast.dir/src/fast_10_score.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fast.dir/src/fast_10_score.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10_score.cpp -o CMakeFiles/fast.dir/src/fast_10_score.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/fast_10_score.cpp -o CMakeFiles/fast.dir/src/fast_10_score.cpp.s
 
 CMakeFiles/fast.dir/src/fast_10_score.cpp.o.requires:
 
@@ -110,16 +110,16 @@ CMakeFiles/fast.dir/src/fast_10_score.cpp.o.provides.build: CMakeFiles/fast.dir/
 
 CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o: CMakeFiles/fast.dir/flags.make
 CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o: ../src/nonmax_3x3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/nonmax_3x3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/nonmax_3x3.cpp
 
 CMakeFiles/fast.dir/src/nonmax_3x3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fast.dir/src/nonmax_3x3.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/nonmax_3x3.cpp > CMakeFiles/fast.dir/src/nonmax_3x3.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/nonmax_3x3.cpp > CMakeFiles/fast.dir/src/nonmax_3x3.cpp.i
 
 CMakeFiles/fast.dir/src/nonmax_3x3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fast.dir/src/nonmax_3x3.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/nonmax_3x3.cpp -o CMakeFiles/fast.dir/src/nonmax_3x3.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/nonmax_3x3.cpp -o CMakeFiles/fast.dir/src/nonmax_3x3.cpp.s
 
 CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o.requires:
 
@@ -134,16 +134,16 @@ CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o.provides.build: CMakeFiles/fast.dir/src
 
 CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o: CMakeFiles/fast.dir/flags.make
 CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o: ../src/faster_corner_10_sse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/faster_corner_10_sse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/faster_corner_10_sse.cpp
 
 CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/faster_corner_10_sse.cpp > CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/faster_corner_10_sse.cpp > CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.i
 
 CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src/faster_corner_10_sse.cpp -o CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src/faster_corner_10_sse.cpp -o CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.s
 
 CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o.requires:
 
@@ -172,7 +172,7 @@ libfast.so: CMakeFiles/fast.dir/src/nonmax_3x3.cpp.o
 libfast.so: CMakeFiles/fast.dir/src/faster_corner_10_sse.cpp.o
 libfast.so: CMakeFiles/fast.dir/build.make
 libfast.so: CMakeFiles/fast.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libfast.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libfast.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fast.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/fast.dir/clean:
 .PHONY : CMakeFiles/fast.dir/clean
 
 CMakeFiles/fast.dir/depend:
-	cd /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles/fast.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/CMakeFiles/fast.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fast.dir/depend
 

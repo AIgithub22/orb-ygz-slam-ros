@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/devel/setup.sh
+    local-name: /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/devel/setup.sh

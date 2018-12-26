@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM
+CMAKE_SOURCE_DIR = /home/ubuntu/ORB-YGZ-SLAM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/build
+CMAKE_BINARY_DIR = /home/ubuntu/ORB-YGZ-SLAM/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ygz-SLAM.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ygz-SLAM.dir/flags.make
 
 CMakeFiles/ygz-SLAM.dir/src/System.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/System.cc.o: ../src/System.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/System.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/System.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/System.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/System.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/System.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/System.cc
 
 CMakeFiles/ygz-SLAM.dir/src/System.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/System.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/System.cc > CMakeFiles/ygz-SLAM.dir/src/System.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/System.cc > CMakeFiles/ygz-SLAM.dir/src/System.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/System.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/System.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/System.cc -o CMakeFiles/ygz-SLAM.dir/src/System.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/System.cc -o CMakeFiles/ygz-SLAM.dir/src/System.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/System.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ygz-SLAM.dir/src/System.cc.o.provides.build: CMakeFiles/ygz-SLAM.dir/
 
 CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o: ../src/Tracking.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Tracking.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Tracking.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Tracking.cc > CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Tracking.cc > CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Tracking.cc -o CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Tracking.cc -o CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ygz-SLAM.dir/src/Tracking.cc.o.provides.build: CMakeFiles/ygz-SLAM.di
 
 CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o: ../src/LocalMapping.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/LocalMapping.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/LocalMapping.cc
 
 CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/LocalMapping.cc > CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/LocalMapping.cc > CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/LocalMapping.cc -o CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/LocalMapping.cc -o CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ygz-SLAM.dir/src/LocalMapping.cc.o.provides.build: CMakeFiles/ygz-SLA
 
 CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o: ../src/LoopClosing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/LoopClosing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/LoopClosing.cc
 
 CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/LoopClosing.cc > CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/LoopClosing.cc > CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/LoopClosing.cc -o CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/LoopClosing.cc -o CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ygz-SLAM.dir/src/LoopClosing.cc.o.provides.build: CMakeFiles/ygz-SLAM
 
 CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o: ../src/ORBextractor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/ORBextractor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/ORBextractor.cc
 
 CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/ORBextractor.cc > CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/ORBextractor.cc > CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/ORBextractor.cc -o CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/ORBextractor.cc -o CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ygz-SLAM.dir/src/ORBextractor.cc.o.provides.build: CMakeFiles/ygz-SLA
 
 CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o: ../src/ORBmatcher.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/ORBmatcher.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/ORBmatcher.cc
 
 CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/ORBmatcher.cc > CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/ORBmatcher.cc > CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/ORBmatcher.cc -o CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/ORBmatcher.cc -o CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ygz-SLAM.dir/src/ORBmatcher.cc.o.provides.build: CMakeFiles/ygz-SLAM.
 
 CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o: ../src/FrameDrawer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/FrameDrawer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/FrameDrawer.cc
 
 CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/FrameDrawer.cc > CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/FrameDrawer.cc > CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/FrameDrawer.cc -o CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/FrameDrawer.cc -o CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ygz-SLAM.dir/src/FrameDrawer.cc.o.provides.build: CMakeFiles/ygz-SLAM
 
 CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o: ../src/Converter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Converter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Converter.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Converter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Converter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Converter.cc > CMakeFiles/ygz-SLAM.dir/src/Converter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Converter.cc > CMakeFiles/ygz-SLAM.dir/src/Converter.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Converter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Converter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Converter.cc -o CMakeFiles/ygz-SLAM.dir/src/Converter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Converter.cc -o CMakeFiles/ygz-SLAM.dir/src/Converter.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ygz-SLAM.dir/src/Converter.cc.o.provides.build: CMakeFiles/ygz-SLAM.d
 
 CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o: ../src/MapPoint.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/MapPoint.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/MapPoint.cc
 
 CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/MapPoint.cc > CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/MapPoint.cc > CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/MapPoint.cc -o CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/MapPoint.cc -o CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ygz-SLAM.dir/src/MapPoint.cc.o.provides.build: CMakeFiles/ygz-SLAM.di
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o: ../src/KeyFrame.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/KeyFrame.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/KeyFrame.cc
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/KeyFrame.cc > CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/KeyFrame.cc > CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/KeyFrame.cc -o CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/KeyFrame.cc -o CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ygz-SLAM.dir/src/KeyFrame.cc.o.provides.build: CMakeFiles/ygz-SLAM.di
 
 CMakeFiles/ygz-SLAM.dir/src/Map.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Map.cc.o: ../src/Map.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Map.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Map.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Map.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Map.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Map.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Map.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Map.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Map.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Map.cc > CMakeFiles/ygz-SLAM.dir/src/Map.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Map.cc > CMakeFiles/ygz-SLAM.dir/src/Map.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Map.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Map.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Map.cc -o CMakeFiles/ygz-SLAM.dir/src/Map.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Map.cc -o CMakeFiles/ygz-SLAM.dir/src/Map.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Map.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ygz-SLAM.dir/src/Map.cc.o.provides.build: CMakeFiles/ygz-SLAM.dir/src
 
 CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o: ../src/MapDrawer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/MapDrawer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/MapDrawer.cc
 
 CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/MapDrawer.cc > CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/MapDrawer.cc > CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/MapDrawer.cc -o CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/MapDrawer.cc -o CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/ygz-SLAM.dir/src/MapDrawer.cc.o.provides.build: CMakeFiles/ygz-SLAM.d
 
 CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o: ../src/Optimizer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Optimizer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Optimizer.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Optimizer.cc > CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Optimizer.cc > CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Optimizer.cc -o CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Optimizer.cc -o CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/ygz-SLAM.dir/src/Optimizer.cc.o.provides.build: CMakeFiles/ygz-SLAM.d
 
 CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o: ../src/PnPsolver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/PnPsolver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/PnPsolver.cc
 
 CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/PnPsolver.cc > CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/PnPsolver.cc > CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/PnPsolver.cc -o CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/PnPsolver.cc -o CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/ygz-SLAM.dir/src/PnPsolver.cc.o.provides.build: CMakeFiles/ygz-SLAM.d
 
 CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o: ../src/Frame.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Frame.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Frame.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Frame.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Frame.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Frame.cc > CMakeFiles/ygz-SLAM.dir/src/Frame.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Frame.cc > CMakeFiles/ygz-SLAM.dir/src/Frame.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Frame.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Frame.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Frame.cc -o CMakeFiles/ygz-SLAM.dir/src/Frame.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Frame.cc -o CMakeFiles/ygz-SLAM.dir/src/Frame.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/ygz-SLAM.dir/src/Frame.cc.o.provides.build: CMakeFiles/ygz-SLAM.dir/s
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o: ../src/KeyFrameDatabase.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/KeyFrameDatabase.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/KeyFrameDatabase.cc
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/KeyFrameDatabase.cc > CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/KeyFrameDatabase.cc > CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/KeyFrameDatabase.cc -o CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/KeyFrameDatabase.cc -o CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/ygz-SLAM.dir/src/KeyFrameDatabase.cc.o.provides.build: CMakeFiles/ygz
 
 CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o: ../src/Sim3Solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Sim3Solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Sim3Solver.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Sim3Solver.cc > CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Sim3Solver.cc > CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Sim3Solver.cc -o CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Sim3Solver.cc -o CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/ygz-SLAM.dir/src/Sim3Solver.cc.o.provides.build: CMakeFiles/ygz-SLAM.
 
 CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o: ../src/Initializer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Initializer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Initializer.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Initializer.cc > CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Initializer.cc > CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Initializer.cc -o CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Initializer.cc -o CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/ygz-SLAM.dir/src/Initializer.cc.o.provides.build: CMakeFiles/ygz-SLAM
 
 CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o: ../src/Viewer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Viewer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Viewer.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Viewer.cc > CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Viewer.cc > CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Viewer.cc -o CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Viewer.cc -o CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/ygz-SLAM.dir/src/Viewer.cc.o.provides.build: CMakeFiles/ygz-SLAM.dir/
 
 CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o: ../src/SparseImageAlign.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/SparseImageAlign.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/SparseImageAlign.cc
 
 CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/SparseImageAlign.cc > CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/SparseImageAlign.cc > CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/SparseImageAlign.cc -o CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/SparseImageAlign.cc -o CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/ygz-SLAM.dir/src/SparseImageAlign.cc.o.provides.build: CMakeFiles/ygz
 
 CMakeFiles/ygz-SLAM.dir/src/Align.cc.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/Align.cc.o: ../src/Align.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Align.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Align.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/Align.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/Align.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/Align.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/src/Align.cc
 
 CMakeFiles/ygz-SLAM.dir/src/Align.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/Align.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/Align.cc > CMakeFiles/ygz-SLAM.dir/src/Align.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/Align.cc > CMakeFiles/ygz-SLAM.dir/src/Align.cc.i
 
 CMakeFiles/ygz-SLAM.dir/src/Align.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/Align.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/Align.cc -o CMakeFiles/ygz-SLAM.dir/src/Align.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/Align.cc -o CMakeFiles/ygz-SLAM.dir/src/Align.cc.s
 
 CMakeFiles/ygz-SLAM.dir/src/Align.cc.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/ygz-SLAM.dir/src/Align.cc.o.provides.build: CMakeFiles/ygz-SLAM.dir/s
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o: ../src/IMU/configparam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/configparam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/src/IMU/configparam.cpp
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/configparam.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/IMU/configparam.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.i
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/configparam.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/IMU/configparam.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.s
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/ygz-SLAM.dir/src/IMU/configparam.cpp.o.provides.build: CMakeFiles/ygz
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o: ../src/IMU/imudata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/imudata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/src/IMU/imudata.cpp
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/imudata.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/IMU/imudata.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.i
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/imudata.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/IMU/imudata.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.s
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/ygz-SLAM.dir/src/IMU/imudata.cpp.o.provides.build: CMakeFiles/ygz-SLA
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o: ../src/IMU/IMUPreintegrator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/IMUPreintegrator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/src/IMU/IMUPreintegrator.cpp
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/IMUPreintegrator.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/IMU/IMUPreintegrator.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.i
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/IMUPreintegrator.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/IMU/IMUPreintegrator.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.s
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/ygz-SLAM.dir/src/IMU/IMUPreintegrator.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o: ../src/IMU/NavState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/NavState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/src/IMU/NavState.cpp
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/NavState.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/IMU/NavState.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.i
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/NavState.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/IMU/NavState.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.s
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/ygz-SLAM.dir/src/IMU/NavState.cpp.o.provides.build: CMakeFiles/ygz-SL
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.o: CMakeFiles/ygz-SLAM.dir/flags.make
 CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.o: ../src/IMU/g2otypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/g2otypes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.o -c /home/ubuntu/ORB-YGZ-SLAM/src/IMU/g2otypes.cpp
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/g2otypes.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/src/IMU/g2otypes.cpp > CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.i
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/src/IMU/g2otypes.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/src/IMU/g2otypes.cpp -o CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.s
 
 CMakeFiles/ygz-SLAM.dir/src/IMU/g2otypes.cpp.o.requires:
 
@@ -803,15 +803,19 @@ ygz__SLAM_EXTERNAL_OBJECTS =
 ../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libICE.so
 ../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libX11.so
 ../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libygz-SLAM.so: /usr/local/lib/librealsense2.so
-../lib/libygz-SLAM.so: /usr/lib/libOpenNI.so
+../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libpython3.5m.so
+../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libdc1394.so
+../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
+../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libavformat.so
+../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libavutil.so
+../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libswscale.so
 ../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libpng.so
 ../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libz.so
 ../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
 ../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libtiff.so
-../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/liblz4.so
+../lib/libygz-SLAM.so: /usr/lib/x86_64-linux-gnu/libIlmImf.so
 ../lib/libygz-SLAM.so: CMakeFiles/ygz-SLAM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library ../lib/libygz-SLAM.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library ../lib/libygz-SLAM.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ygz-SLAM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -853,6 +857,6 @@ CMakeFiles/ygz-SLAM.dir/clean:
 .PHONY : CMakeFiles/ygz-SLAM.dir/clean
 
 CMakeFiles/ygz-SLAM.dir/depend:
-	cd /home/raymond/Downloads/ORB-YGZ-SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raymond/Downloads/ORB-YGZ-SLAM /home/raymond/Downloads/ORB-YGZ-SLAM /home/raymond/Downloads/ORB-YGZ-SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles/ygz-SLAM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/ORB-YGZ-SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ORB-YGZ-SLAM /home/ubuntu/ORB-YGZ-SLAM /home/ubuntu/ORB-YGZ-SLAM/build /home/ubuntu/ORB-YGZ-SLAM/build /home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles/ygz-SLAM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ygz-SLAM.dir/depend
 

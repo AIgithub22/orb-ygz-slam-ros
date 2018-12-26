@@ -7,11 +7,11 @@ C_FLAGS =   -Wall -W -O3 -DNDEBUG -O3 -march=native -fPIC
 
 C_DEFINES = -DUNIX -Dg2o_EXPORTS
 
-C_INCLUDES = -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/../sophus -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/core -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/types -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/stuff -I/usr/local/include/eigen3 
+C_INCLUDES = -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/../sophus -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/core -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/types -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/stuff -I/usr/include/eigen3 
 
 CXX_FLAGS =   -Wall -W -O3 -DNDEBUG -O3 -march=native -fPIC  
 
 CXX_DEFINES = -DUNIX -Dg2o_EXPORTS
 
-CXX_INCLUDES = -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/../sophus -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/core -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/types -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/g2o/stuff -I/usr/local/include/eigen3 
+CXX_INCLUDES = -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/../sophus -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/core -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/types -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/g2o/stuff -I/usr/include/eigen3 
 

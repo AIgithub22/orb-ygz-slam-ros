@@ -7,6 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/devel:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM:/home/raymond/catkin_ws/src:/home/raymond/dev/catkin_qt/src:/opt/ros/kinetic/share"
+export CMAKE_PREFIX_PATH="/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/devel:$CMAKE_PREFIX_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM:/home/ubuntu/dev/catkin_ws/src:/opt/ros/kinetic/share"

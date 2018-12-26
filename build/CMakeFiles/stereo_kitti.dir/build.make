@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM
+CMAKE_SOURCE_DIR = /home/ubuntu/ORB-YGZ-SLAM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/build
+CMAKE_BINARY_DIR = /home/ubuntu/ORB-YGZ-SLAM/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stereo_kitti.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/stereo_kitti.dir/flags.make
 
 CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o: CMakeFiles/stereo_kitti.dir/flags.make
 CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o: ../Examples/Stereo/stereo_kitti.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o -c /home/raymond/Downloads/ORB-YGZ-SLAM/Examples/Stereo/stereo_kitti.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o -c /home/ubuntu/ORB-YGZ-SLAM/Examples/Stereo/stereo_kitti.cc
 
 CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raymond/Downloads/ORB-YGZ-SLAM/Examples/Stereo/stereo_kitti.cc > CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ORB-YGZ-SLAM/Examples/Stereo/stereo_kitti.cc > CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.i
 
 CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raymond/Downloads/ORB-YGZ-SLAM/Examples/Stereo/stereo_kitti.cc -o CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ORB-YGZ-SLAM/Examples/Stereo/stereo_kitti.cc -o CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.s
 
 CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o.requires:
 
@@ -144,13 +144,17 @@ stereo_kitti_EXTERNAL_OBJECTS =
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libICE.so
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libX11.so
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libXext.so
-../Examples/Stereo/stereo_kitti: /usr/local/lib/librealsense2.so
-../Examples/Stereo/stereo_kitti: /usr/lib/libOpenNI.so
+../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libpython3.5m.so
+../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libdc1394.so
+../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libavcodec.so
+../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libavformat.so
+../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libavutil.so
+../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libswscale.so
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libpng.so
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libz.so
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libjpeg.so
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libtiff.so
-../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/liblz4.so
+../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libIlmImf.so
 ../Examples/Stereo/stereo_kitti: ../Thirdparty/DBoW2/lib/libDBoW2.so
 ../Examples/Stereo/stereo_kitti: ../Thirdparty/g2o/lib/libg2o.so
 ../Examples/Stereo/stereo_kitti: ../Thirdparty/fast/build/libfast.so
@@ -162,7 +166,7 @@ stereo_kitti_EXTERNAL_OBJECTS =
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
 ../Examples/Stereo/stereo_kitti: /usr/lib/x86_64-linux-gnu/libglog.so
 ../Examples/Stereo/stereo_kitti: CMakeFiles/stereo_kitti.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../Examples/Stereo/stereo_kitti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../Examples/Stereo/stereo_kitti"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stereo_kitti.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,6 +183,6 @@ CMakeFiles/stereo_kitti.dir/clean:
 .PHONY : CMakeFiles/stereo_kitti.dir/clean
 
 CMakeFiles/stereo_kitti.dir/depend:
-	cd /home/raymond/Downloads/ORB-YGZ-SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raymond/Downloads/ORB-YGZ-SLAM /home/raymond/Downloads/ORB-YGZ-SLAM /home/raymond/Downloads/ORB-YGZ-SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles/stereo_kitti.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/ORB-YGZ-SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ORB-YGZ-SLAM /home/ubuntu/ORB-YGZ-SLAM /home/ubuntu/ORB-YGZ-SLAM/build /home/ubuntu/ORB-YGZ-SLAM/build /home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles/stereo_kitti.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stereo_kitti.dir/depend
 

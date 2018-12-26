@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Werror -Wno-unused-variable -Wno-unused-but-set-variable -Wno
 
 CXX_DEFINES = -Dfast_EXPORTS
 
-CXX_INCLUDES = -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/include -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/src 
+CXX_INCLUDES = -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/include -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/src 
 

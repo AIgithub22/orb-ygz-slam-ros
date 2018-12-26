@@ -1,4 +1,4 @@
-# Install script for directory: /home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast
+# Install script for directory: /home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/include/fast" FILES_MATCHING REGEX "/[^/]*\\.h$")
+file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/include/fast" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -59,7 +59,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/libfast.so")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/libfast.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libfast.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libfast.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -76,5 +76,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/gtest/src/gtest_main.cc" "/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/gtest/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/usr/src/gtest/src/gtest_main.cc" "/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/gtest/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,14 +16,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/include"
+  "/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/include"
   "/usr/src/gtest/include"
   "/usr/src/gtest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

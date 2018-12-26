@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM
+CMAKE_SOURCE_DIR = /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build
+CMAKE_BINARY_DIR = /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build
 
 # Utility rule file for rospack_gensrv.
 
@@ -67,6 +67,6 @@ CMakeFiles/rospack_gensrv.dir/clean:
 .PHONY : CMakeFiles/rospack_gensrv.dir/clean
 
 CMakeFiles/rospack_gensrv.dir/depend:
-	cd /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/CMakeFiles/rospack_gensrv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/CMakeFiles/rospack_gensrv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rospack_gensrv.dir/depend
 

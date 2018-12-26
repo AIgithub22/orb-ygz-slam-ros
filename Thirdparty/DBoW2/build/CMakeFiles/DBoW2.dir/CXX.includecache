@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.cpp
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.cpp
 iostream
 -
 fstream
@@ -18,9 +18,9 @@ algorithm
 cmath
 -
 BowVector.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
 iostream
 -
 map
@@ -28,9 +28,9 @@ map
 vector
 -
 ../DUtils/config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FClass.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FClass.h
 opencv2/core/core.hpp
 -
 vector
@@ -38,9 +38,9 @@ vector
 string
 -
 ../DUtils/config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FORB.cpp
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FORB.cpp
 vector
 -
 string
@@ -52,9 +52,9 @@ stdint.h
 limits.h
 -
 FORB.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FORB.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FORB.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FORB.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FORB.h
 opencv2/core/core.hpp
 -
 vector
@@ -62,13 +62,13 @@ vector
 string
 -
 FClass.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FClass.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FClass.h
 ../DUtils/config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
 FeatureVector.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 map
 -
 vector
@@ -76,9 +76,9 @@ vector
 iostream
 -
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
 map
 -
 vector
@@ -86,23 +86,23 @@ vector
 iostream
 -
 ../DUtils/config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
 cfloat
 -
 TemplatedVocabulary.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
 BowVector.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/ScoringObject.h
 BowVector.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
 ../DUtils/config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
 cassert
 -
 vector
@@ -120,33 +120,33 @@ opencv2/core/core.hpp
 limits
 -
 FeatureVector.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/BowVector.h
 ScoringObject.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DBoW2/ScoringObject.h
 ../DUtils/Random.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.h
 ../DUtils/config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.cpp
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.cpp
 Random.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.h
 Timestamp.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.h
 cstdlib
 -
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Random.h
 cstdlib
 -
 vector
 -
 config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.cpp
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.cpp
 cstdio
 -
 cstdlib
@@ -164,15 +164,15 @@ sys/timeb.h
 sys/time.h
 -
 Timestamp.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/Timestamp.h
 iostream
 -
 config.h
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
-/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
+/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/DBoW2/DUtils/config.h
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv/cxcore.h
 opencv2/core/core_c.h

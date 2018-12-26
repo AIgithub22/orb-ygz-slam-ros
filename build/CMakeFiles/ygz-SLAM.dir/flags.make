@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -O3 -march=native -Wno-reorder -std=c++11 -mmmx -msse -msse -
 
 CXX_DEFINES = -DCOMPILEDWITHC11 -Dygz_SLAM_EXPORTS
 
-CXX_INCLUDES = -I/home/raymond/Downloads/ORB-YGZ-SLAM -I/home/raymond/Downloads/ORB-YGZ-SLAM/include -I/home/raymond/Downloads/ORB-YGZ-SLAM/src -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/fast/include -I/home/raymond/Downloads/ORB-YGZ-SLAM/Thirdparty/sophus -isystem /usr/local/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -I/usr/include/suitesparse -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include 
+CXX_INCLUDES = -I/home/ubuntu/ORB-YGZ-SLAM -I/home/ubuntu/ORB-YGZ-SLAM/include -I/home/ubuntu/ORB-YGZ-SLAM/src -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/fast/include -I/home/ubuntu/ORB-YGZ-SLAM/Thirdparty/sophus -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -I/usr/include/suitesparse -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
 

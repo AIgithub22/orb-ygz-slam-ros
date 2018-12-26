@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raymond/Downloads/ORB-YGZ-SLAM/Examples/RGB-D/rgbd_tum.cc" "/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles/rgbd_tum.dir/Examples/RGB-D/rgbd_tum.cc.o"
+  "/home/ubuntu/ORB-YGZ-SLAM/Examples/RGB-D/rgbd_tum.cc" "/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles/rgbd_tum.dir/Examples/RGB-D/rgbd_tum.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,17 +20,16 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src"
   "../Thirdparty/fast/include"
   "../Thirdparty/sophus"
-  "/usr/local/include/eigen3"
+  "/usr/include/eigen3"
   "/usr/local/lib/cmake/Pangolin/../../../include"
   "/usr/include/suitesparse"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
-  "/usr/local/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/raymond/Downloads/ORB-YGZ-SLAM/build/CMakeFiles/ygz-SLAM.dir/DependInfo.cmake"
+  "/home/ubuntu/ORB-YGZ-SLAM/build/CMakeFiles/ygz-SLAM.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

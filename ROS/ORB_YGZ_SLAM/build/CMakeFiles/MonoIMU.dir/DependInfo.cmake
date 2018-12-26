@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/src/MonoIMU.cc" "/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/CMakeFiles/MonoIMU.dir/src/MonoIMU.cc.o"
+  "/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/src/MonoIMU.cc" "/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/CMakeFiles/MonoIMU.dir/src/MonoIMU.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,10 +26,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../src"
   "../../../Thirdparty/fast/include"
   "../../../Thirdparty/sophus"
-  "/usr/local/include/eigen3"
+  "/usr/include/eigen3"
   "/usr/local/lib/cmake/Pangolin/../../../include"
   "/usr/include/suitesparse"
-  "/usr/local/include"
   )
 
 # Targets to which this target links.

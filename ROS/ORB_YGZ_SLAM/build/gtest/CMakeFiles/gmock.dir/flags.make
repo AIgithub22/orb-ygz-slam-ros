@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexcepti
 
 CXX_DEFINES = -DGTEST_CREATE_SHARED_LIBRARY=1 -DROS_PACKAGE_NAME=\"ORB_YGZ_SLAM\" -Dgmock_EXPORTS
 
-CXX_INCLUDES = -I/home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/include -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest 
+CXX_INCLUDES = -I/home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/include -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest 
 

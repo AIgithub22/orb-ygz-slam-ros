@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM
+CMAKE_SOURCE_DIR = /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build
+CMAKE_BINARY_DIR = /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build
 
 # Utility rule file for rosbuild_clean-test-results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build
 include CMakeFiles/rosbuild_clean-test-results.dir/progress.make
 
 CMakeFiles/rosbuild_clean-test-results:
-	if ! rm -rf /home/raymond/.ros/test_results/ORB_YGZ_SLAM; then echo "WARNING:\ failed\ to\ remove\ test-results\ directory"; fi
+	if ! rm -rf /home/ubuntu/.ros/test_results/ORB_YGZ_SLAM; then echo "WARNING:\ failed\ to\ remove\ test-results\ directory"; fi
 
 rosbuild_clean-test-results: CMakeFiles/rosbuild_clean-test-results
 rosbuild_clean-test-results: CMakeFiles/rosbuild_clean-test-results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/rosbuild_clean-test-results.dir/clean:
 .PHONY : CMakeFiles/rosbuild_clean-test-results.dir/clean
 
 CMakeFiles/rosbuild_clean-test-results.dir/depend:
-	cd /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/raymond/Downloads/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/CMakeFiles/rosbuild_clean-test-results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_SLAM/build/CMakeFiles/rosbuild_clean-test-results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosbuild_clean-test-results.dir/depend
 
