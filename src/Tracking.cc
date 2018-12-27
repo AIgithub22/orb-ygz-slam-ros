@@ -384,7 +384,7 @@ namespace ygz {
                         // 优化每个特征点所对应3D点的投影误差即可得到位姿
 
                         //// we modify this with sparse direct alignment, in which we don't need to extract new features or do feature matching
-                        bOK = TrackWithSparseAlignment(mpLocalMapper->GetFirstVINSInited() || bMapUpdated);
+                        bOK = TrackWithSparseAlignment(mpLocalMapper->GetFirstVINSInited() || bMapUpdated);//original orbslam code:bOK = TrackWithMotionModel();
 
                         if (bOK == false)
                             bOK = TrackWithMotionModel();
@@ -1194,7 +1194,7 @@ namespace ygz {
         // Optimize Pose, consider IMU variables here in PoseOptimization()
         //Optimizer::PoseOptimization(&mCurrentFrame);
         if (bTrackLastKF) {
-            //fortest, to delete
+            //for test, to delete
             IMUPreintegrator imupreint = GetIMUPreIntSinceLastKF(&mCurrentFrame, mpLastKeyFrame, mvIMUSinceLastKF);
             if ((imupreint.getDeltaP() - mIMUPreIntInTrack.getDeltaP()).norm() > 1e-4)
                 LOG(ERROR) << "preint dif P" << endl;
@@ -1208,7 +1208,7 @@ namespace ygz {
             Optimizer::PoseOptimization(&mCurrentFrame, mpLastKeyFrame, mIMUPreIntInTrack,
                                         mpLocalMapper->GetGravityVec(), true);
         } else {
-            //fortest, to delete
+            //for test, to delete
             IMUPreintegrator imupreint = GetIMUPreIntSinceLastFrame(&mCurrentFrame, &mLastFrame);
             if ((imupreint.getDeltaP() - mIMUPreIntInTrack.getDeltaP()).norm() > 1e-4)
                 LOG(ERROR) << "preint dif P" << endl;

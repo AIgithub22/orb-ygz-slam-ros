@@ -137,14 +137,14 @@ namespace ygz {
             invfx = 1.0f / fx;
             invfy = 1.0f / fy;
             for (size_t i = 0; i < 4; i++)
-                if (distCoef.at<float>(i) != 0) {
+                if (distCoef.at<float>(i) != 0) {// process undistortion flag
                     mbNeedUndistort = true;
                 }
 
             mbInitialComputations = false;
         }
 
-        mb = mbf / fx;
+        mb = mbf / fx; //this is monocular why do we need Stereo baseline 
         ComputeImagePyramid();
     }
 
@@ -776,7 +776,7 @@ namespace ygz {
             if (map1.empty()) {
                 // init the undistortion map
                 cv::initUndistortRectifyMap(
-                        Converter::toCvMat(mK),
+                        Converter::toCvMat(mK),//mk Calibration matrix and OpenCV distortion parameters.
                         mDistCoef, Mat(), Converter::toCvMat(mK),
                         cv::Size(mImGray.cols, mImGray.rows),
                         CV_16SC2, map1, map2

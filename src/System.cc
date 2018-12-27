@@ -69,7 +69,7 @@ namespace ygz {
                 mpTracker->InformOnlyTracking(false);
                 mpLocalMapper->Release();
                 mbDeactivateLocalizationMode = false;
-            }
+            }   
         }
 
         // Check reset
