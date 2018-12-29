@@ -728,8 +728,8 @@ namespace ygz {
 
                 return;
             }
-        } else {
-            // Try to initialize
+        } else {// Try to initialize
+            
             if ((int) mCurrentFrame.mvKeys.size() <= 100) {
                 delete mpInitializer;
                 mpInitializer = static_cast<Initializer *>(NULL);
@@ -742,7 +742,7 @@ namespace ygz {
             int nmatches = matcher.SearchForInitialization(mInitialFrame, mCurrentFrame, mvbPrevMatched, mvIniMatches,
                                                            100);
 
-            // Check if there are enough correspondences
+            // Check if there are enough correspondences :100
             if (nmatches < 100) {
                 delete mpInitializer;
                 mpInitializer = static_cast<Initializer *>(NULL);
@@ -941,16 +941,16 @@ namespace ygz {
         }
 
         mCurrentFrame.mvpMapPoints = vpMapPointMatches;
-        mCurrentFrame.SetPose(mLastFrame.mTcw);
+        mCurrentFrame.SetPose(mLastFrame.mTcw);//set initial optimze value
 
-        Optimizer::PoseOptimization(&mCurrentFrame);
+        Optimizer::PoseOptimization(&mCurrentFrame);//optimize currentframe.
         if (mbUseIMU && mpLocalMapper->GetVINSInited()) {
             NavState ns = mCurrentFrame.GetNavState();
             SE3d Twb = (mpParams->GetSE3Tbc() * mCurrentFrame.mTcw.cast<double>()).inverse();
             ns.Set_Pos(Twb.translation());
             ns.Set_Rot(Twb.so3());
             mCurrentFrame.SetNavState(ns);
-        }
+        }//world frame to body frame trans
 
         // Discard outliers
         int nmatchesMap = 0;
@@ -960,7 +960,7 @@ namespace ygz {
                     MapPoint *pMP = mCurrentFrame.mvpMapPoints[i];
 
                     mCurrentFrame.mvpMapPoints[i] = static_cast<MapPoint *>(NULL);
-                    mCurrentFrame.mvbOutlier[i] = false;
+                    mCurrentFrame.mvbOutlier[i] = false;//finish del outliers set to false
                     pMP->mbTrackInView = false;
                     pMP->mnLastFrameSeen = mCurrentFrame.mnId;
                     nmatches--;
@@ -2077,7 +2077,7 @@ namespace ygz {
             if (mLastFrame.mvpMapPoints[i] && mLastFrame.mvpMapPoints[i]->isBad() == false &&
                 mLastFrame.mvbOutlier[i] == false)
                 inliers_in_last_frame++;
-        if (inliers_in_last_frame < 30) {
+        if (inliers_in_last_frame < 30) {//at less 30 inliers 
             LOG(WARNING) << "Last frame have less observations: " << inliers_in_last_frame
                          << ", sparse alignment may have a erroneous result, return back to feature method." << endl;
             return false;

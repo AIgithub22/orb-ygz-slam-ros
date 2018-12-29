@@ -481,7 +481,7 @@ namespace ygz {
     }
 
     bool Frame::PosInGrid(const cv::KeyPoint &kp, int &posX, int &posY) {
-        posX = round((kp.pt.x - mnMinX) * mfGridElementWidthInv);
+        posX = round((kp.pt.x - mnMinX) * mfGridElementWidthInv);//rounding
         posY = round((kp.pt.y - mnMinY) * mfGridElementHeightInv);
 
         //Keypoint's coordinates are undistorted, which could cause to go out of the image
@@ -731,7 +731,7 @@ namespace ygz {
             threadRight.join();
         }
 
-        N = mvKeys.size();
+        N = mvKeys.size();// mvKeys:原始左图像提取出的特征点
 
         if (mvKeys.empty()) {
             LOG (WARNING) << "Cannot extract features, please check your image!" << endl;
