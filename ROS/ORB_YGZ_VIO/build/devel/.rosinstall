@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/ORB-YGZ-SLAM/ROS/ORB_YGZ_VIO/build/devel/setup.sh

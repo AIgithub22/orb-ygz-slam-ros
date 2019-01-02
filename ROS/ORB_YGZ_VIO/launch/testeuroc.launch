@@ -1,0 +1,6 @@
+<launch>
+
+ 	<node pkg="ORB_YGZ_VIO" type="VIO" name="VIO"  args="/home/raymond/Downloads/ORB-YGZ-SLAM/Vocabulary/ORBvoc.bin /home/raymond/Downloads/ORB-YGZ-SLAM/config/IDS.yaml" cwd="node" output="screen">
+	</node>
+
+</launch>
